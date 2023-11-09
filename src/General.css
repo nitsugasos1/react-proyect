@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat';
+  }
+  
+  .body {
+      display: inline-flex;
+      padding: 16px;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      background-color: #F3EBEB; 
+  }
+
+  .experiencia {
+    display: flex;
+    width: 100%;
+    height: 16em;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 12px;
+    background: #FFF;
+    margin-top: 25px;
+}
+
+.article__experiencia {
+    display: flex;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+  
+  @media screen and (min-width: 800px) {
+
+    .body {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-column-gap: 16px;
+        grid-row-gap: 24px;
+
+        .header {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .main {
+            grid-area: 1 / 2 / 3 / 3;
+        }
+
+        .experiencia {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+
+        .certificate__portrait-2 {
+            grid-area: 3 / 1 / 4 /3;
+        }
+      }
+    }
+

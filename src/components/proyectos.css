@@ -1,0 +1,74 @@
+.main__proyects {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    Justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+
+    border-radius: 12px;
+    background: #FFF;
+    margin-top: 25px
+}
+
+.proyects__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.button1 {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.00);
+    border: 1px solid #4F4F4F;
+}
+
+.button2 {
+    display: flex;
+    padding: 12px 42.797px 11px 39.203px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.00);
+}
+
+.button3 {
+    display: flex;
+    padding: 12px 42.797px 11px 39.203px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.00);
+
+}
+
+.showBtn{
+    background-color: #2F80ED;
+    color: #FFF;;
+    border: none;
+}
+
+@media screen and (min-width: 800px) {
+
+    
+
+    @media screen and (min-width: 800px) {
+
+        /*Proyectos*/
+    
+        .main__proyects {
+            margin-top: 0px;
+        }
+    }
+}

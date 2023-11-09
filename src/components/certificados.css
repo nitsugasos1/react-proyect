@@ -1,0 +1,134 @@
+.certificate__portrait-2 {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 12px;
+    background: #FFF;
+    width: 100%;
+
+}
+
+.certificate__portrait-2>h2 {
+
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--gray-2, #4F4F4F);
+
+}
+
+/* los tres div de certificate */
+.certificate__frame14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.certificate__frame14__2 {
+    display: none;
+}
+
+.certificate__frame14__3 {
+    display: none;
+}
+
+.certificate__img {
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid var(--gray-3, #C4C4C4);
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    height: 260px;
+}
+
+.certificate_frame15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+    padding: 4px;
+}
+
+.certificate_frame15>h2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.certificate_frame15>span {
+
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--gray, #828282);
+}
+
+.showBtn{
+    background-color: #2F80ED;
+    color: #FFF;;
+    border: none;
+}
+
+@media screen and (min-width: 800px) {
+
+    /*Proyectos*/
+
+    .main__proyects {
+        margin-top: 0px;
+    }
+
+    /*Certificados */
+
+    .certificate__portrait-2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+
+    }
+
+    .certificate__portrait-2>h2 {
+        padding-right: 80.19rem;
+        padding-top: 1rem;
+    }
+
+    .certificate__frame__general {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+
+
+    .certificate__frame14,
+    .certificate__frame14__3,
+    .certificate__frame14__2 {
+        display: flex;
+        flex-direction: column;
+        height: 340px;
+        margin: auto;
+        border-radius: 12px;
+        margin-bottom: 16px;
+        border: 2px solid #C4C4C4;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        justify-content: unset;
+        gap: 0;
+    }
+}
